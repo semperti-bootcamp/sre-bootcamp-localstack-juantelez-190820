@@ -1,0 +1,13 @@
+---
+- hosts: bootCampJuan
+  tasks:
+    - name: Instalando dependencias de LocalStack
+      yum:
+        name: 
+        - python
+        - python-pip
+        - make
+        - npm
+        - java
+        - javacc
+        state: latest

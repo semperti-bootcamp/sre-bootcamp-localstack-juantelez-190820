@@ -16,7 +16,8 @@ En esta caso vamos a levantar LocalStack utilizando `pip` y sin utilizar `Docker
 * `pip`
 * `make`
 * `npm` 
-* `java`/`javac` * `mvn`
+* `java`/`javac` 
+* `mvn`
 
 Para instalarlas utilizamos el playbook `dependencias.yml`:
 ```
